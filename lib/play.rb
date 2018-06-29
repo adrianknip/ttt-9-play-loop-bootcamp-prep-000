@@ -38,7 +38,7 @@ end
 # Define your play method below
 
 def play(board)
-    while (board[8] && board[1] && board[2] && board[3] && board[4] && board[5] && board[6] && board[7] && board[0]) != "X"
+    until (board[8] && board[1] && board[2] && board[3] && board[4] && board[5] && board[6] && board[7] && board[0]) != " "
     turn(board)
   end
 end
