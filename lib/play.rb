@@ -39,4 +39,5 @@ end
 
 def play(board)
   while board[] == " "
+  turn(board)
 end
