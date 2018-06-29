@@ -38,7 +38,7 @@ end
 # Define your play method below
 
 def play(board)
-    while board[] == " "
+    while board[0] == " "
     turn(board)
   end
 end
